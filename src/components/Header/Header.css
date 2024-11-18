@@ -1,0 +1,29 @@
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .8rem 1.5rem;
+  background: #FFF7ED;
+}
+
+.logo {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.header-link-lists {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header-link {
+  list-style: none;
+}
+
+.header-link > a {
+  text-decoration: none;
+  color: #4D4D4D;
+}
