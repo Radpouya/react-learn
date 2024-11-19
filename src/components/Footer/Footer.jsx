@@ -2,9 +2,7 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer>
-      <h3>Ⓒ 2022 #VANLIFE</h3>
-    </footer>
+    <footer>&#169; 2022 #VANLIFE</footer>
   )
 }
 

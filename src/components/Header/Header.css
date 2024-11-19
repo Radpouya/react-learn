@@ -27,3 +27,9 @@ header {
   text-decoration: none;
   color: #4D4D4D;
 }
+
+.active-link {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #161616;
+}

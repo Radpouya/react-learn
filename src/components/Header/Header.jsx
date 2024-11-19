@@ -1,5 +1,5 @@
 import './Header.css';
-import {Link} from "react-router-dom";
+import {NavLink, Link} from "react-router-dom";
 
 const Header = () => {
   return (
@@ -7,10 +7,13 @@ const Header = () => {
       <Link to='/' className='logo'>#VANLIFE</Link>
       <ul className='header-link-lists'>
         <li className='header-link'>
-          <Link to='/about'>About</Link>
+          <NavLink to='/host' className={({isActive}) => isActive ? 'active-link' : null}>Host</NavLink>
         </li>
         <li className='header-link'>
-          <Link to='/'>Vans</Link>
+          <NavLink to='/about' className={({isActive}) => isActive ? 'active-link' : null}>About</NavLink>
+        </li>
+        <li className='header-link'>
+          <NavLink to='/vans' className={({isActive}) => isActive ? 'active-link' : null}>Vans</NavLink>
         </li>
       </ul>
     </header>
